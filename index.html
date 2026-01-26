@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nishizumi Maho | Kuromorimine Hub</title>
+    <title>Nishizumi Maho | Project Hub</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,12 +16,12 @@
     <div class="page">
       <header class="hero">
         <div class="hero__badge">
-          <span>Kuromorimine Special Operations</span>
+          <span>Precision Project Operations</span>
         </div>
         <div class="hero__content">
           <div class="hero__mark" aria-hidden="true">
             <div class="hero__logo">
-              <svg viewBox="0 0 140 160" role="img" aria-label="Kuromorimine emblem">
+              <svg viewBox="0 0 140 160" role="img" aria-label="Nishizumi crest">
                 <defs>
                   <linearGradient id="crest" x1="0" y1="0" x2="1" y2="1">
                     <stop offset="0%" stop-color="#0f1115" />
@@ -51,40 +51,25 @@
               </svg>
             </div>
             <div class="hero__logo hero__logo--kuromorimine">
-              <svg viewBox="0 0 200 200" role="img" aria-label="Kuromorimine logo">
-                <rect x="0" y="0" width="200" height="200" rx="22" fill="#070707" />
+              <svg viewBox="0 0 200 200" role="img" aria-label="Nishizumi badge">
+                <rect x="0" y="0" width="200" height="200" rx="22" fill="#0c0f14" />
                 <path
-                  d="M40 18C18 68 18 132 40 182M160 18C182 68 182 132 160 182"
+                  d="M46 36L154 36L180 100L154 164L46 164L20 100L46 36Z"
+                  fill="#161b22"
                   stroke="#f5f5f5"
-                  stroke-width="22"
-                  stroke-linecap="round"
+                  stroke-width="6"
                 />
-                <path
-                  d="M18 52C68 38 132 38 182 52M18 148C68 162 132 162 182 148"
-                  stroke="#f5f5f5"
-                  stroke-width="18"
-                  stroke-linecap="round"
-                />
-                <text
-                  x="100"
-                  y="118"
-                  text-anchor="middle"
-                  font-size="52"
-                  font-weight="700"
-                  fill="#f5f5f5"
-                  font-family="serif"
-                >
-                  黒森峰
-                </text>
+                <circle cx="100" cy="100" r="38" fill="#0c0f14" stroke="#f5f5f5" stroke-width="6" />
+                <path d="M100 72V128M72 100H128" stroke="#f5f5f5" stroke-width="6" />
               </svg>
             </div>
           </div>
           <div>
             <p class="hero__title">Nishizumi Maho</p>
-            <h1 class="hero__headline">Kuromorimine Project Hangar</h1>
+            <h1 class="hero__headline">Nishizumi Project Hangar</h1>
             <p class="hero__subtitle">
-              Central command for iRacing utilities and translation work. Inspired by the
-              discipline and precision of Kuromorimine special operations doctrine.
+              Central command for iRacing utilities and translation work, built for precision,
+              clarity, and dependable workflows.
             </p>
             <div class="hero__actions">
               <a class="btn btn--primary" href="#iracing">View iRacing Projects</a>
@@ -107,50 +92,79 @@
             </summary>
             <div class="card-grid">
               <article class="card">
-                <h3>Nishizumi Control</h3>
-                <p>Unified control center for managing iRacing overlays and session flow.</p>
+                <h3>Nishizumi-Control</h3>
+                <p>
+                  A hotkey assisted control manager for iRacing driver adjustments (brake bias, TC,
+                  ABS, etc.), with multi device inputs, an on screen HUD overlay, presets, and
+                  optional speech/voice features. (STABLE RELEASE)
+                </p>
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Control" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
               </article>
               <article class="card">
-                <h3>Nishizumi Fuel</h3>
-                <p>Fuel planning utility for pit strategies and safe stint calculations.</p>
+                <h3>Nishizumi-fuel</h3>
+                <p>
+                  A lightweight Tkinter overlay that reads iRacing telemetry and shows fuel per
+                  lap, remaining laps, and stint planning, including deltas vs a target and auto
+                  refuel detection. (STABLE RELEASE)
+                </p>
                 <a href="https://github.com/nishizumi-maho/Nishizumi-fuel" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
               </article>
               <article class="card">
-                <h3>Nishizumi Tools</h3>
-                <p>Collection of quality-of-life tools to streamline race preparation.</p>
-                <a href="https://github.com/nishizumi-maho/Nishizumi-Tools" target="_blank" rel="noreferrer">
-                  View on GitHub
-                </a>
-              </article>
-              <article class="card">
-                <h3>Nishizumi Calculator</h3>
-                <p>Quick calculators for deltas, stint timing, and race math.</p>
+                <h3>Nishizumi-Calculator</h3>
+                <p>
+                  “Drive Fair Share Calculator”, a multilingual static web calculator for team
+                  events that computes equal share and minimum fair share laps per driver and can
+                  estimate time per driver using average lap time. (STABLE RELEASE)
+                </p>
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Calculator" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
               </article>
               <article class="card">
-                <h3>Nishizumi IBT</h3>
-                <p>Telemetry and training helpers for consistent lap improvement.</p>
+                <h3>Nishizumi-Tools</h3>
+                <p>
+                  A small bundle of pit operation helpers: Fuel Helper (warnings around
+                  fuel/autofuel and pit timing) and Turbo Pit (UI/CLI for sending pit command
+                  broadcasts, with toggles and auto clear options). (WIP)
+                </p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Tools" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+              <article class="card">
+                <h3>Nishizumi-IBT</h3>
+                <p>
+                  An experimental Tkinter overlay that compares your live telemetry to a reference
+                  lap extracted from a local .ibt file, showing throttle/brake/speed traces and cue
+                  points to benchmark driving. (WIP)
+                </p>
                 <a href="https://github.com/nishizumi-maho/Nishizumi-IBT" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
               </article>
               <article class="card">
-                <h3>Nishizumi Share</h3>
-                <p>Share settings and race assets across devices and teammates.</p>
+                <h3>Nishizumi-Share</h3>
+                <p>
+                  An experimental privacy focused setup/file sharing system using Tor hidden
+                  services (.onion) for anonymous team file sharing and syncing, aiming to avoid
+                  exposing IPs and relying on optional controls like rate limiting and scanning.
+                  (WIP)
+                </p>
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Share" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
               </article>
               <article class="card">
-                <h3>Nishizumi Sync</h3>
-                <p>Sync race configurations and data with Kuromorimine efficiency.</p>
+                <h3>Nishizumi-Sync</h3>
+                <p>
+                  A setups organizer/sync tool that copies and synchronizes iRacing setup files,
+                  with GUI, profiles, import modes (archives/folders), smart car detection/mapping,
+                  bidirectional sync, and dry run support. (WIP)
+                </p>
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Sync" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
@@ -166,8 +180,13 @@
           </div>
           <div class="card-grid">
             <article class="card">
-              <h3>Nishizumi Translations</h3>
-              <p>Localization work and translation resources for fans and developers.</p>
+              <h3>Nishizumi-Translations (jp2subs)</h3>
+              <p>
+                A Windows friendly CLI/GUI pipeline that turns Japanese audio/video into
+                transcripts and subtitles (SRT/VTT/ASS), using faster whisper for ASR, optional
+                romanization, and ffmpeg for mux/burn; translation is no longer bundled (bring your
+                own translator/LLM).
+              </p>
               <a
                 href="https://github.com/nishizumi-maho/Nishizumi-Translations"
                 target="_blank"
@@ -181,7 +200,7 @@
       </main>
 
       <footer class="footer">
-        <p>Built for GitHub Pages • Kuromorimine discipline, Nishizumi precision.</p>
+        <p>Built for GitHub Pages • Nishizumi precision, clear workflows.</p>
       </footer>
     </div>
   </body>
