@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nishizumi Maho | Kuromorimine Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__badge">
+          <span>Kuromorimine Girls High School</span>
+        </div>
+        <div class="hero__content">
+          <div class="hero__logo" aria-hidden="true">
+            <svg viewBox="0 0 140 160" role="img" aria-label="Kuromorimine emblem">
+              <defs>
+                <linearGradient id="crest" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#0f1115" />
+                  <stop offset="100%" stop-color="#1a1d23" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M70 6L128 30V82C128 118 103 140 70 154C37 140 12 118 12 82V30L70 6Z"
+                fill="url(#crest)"
+                stroke="#f5f5f5"
+                stroke-width="4"
+              />
+              <path
+                d="M70 20L112 38V79C112 106 93 123 70 133C47 123 28 106 28 79V38L70 20Z"
+                fill="#14171d"
+                stroke="#d6d6d6"
+                stroke-width="2"
+              />
+              <path
+                d="M70 42V117M44 79H96"
+                stroke="#f5f5f5"
+                stroke-width="6"
+                stroke-linecap="round"
+              />
+              <circle cx="70" cy="79" r="10" fill="#f5f5f5" />
+              <circle cx="70" cy="79" r="5" fill="#1b1f27" />
+            </svg>
+          </div>
+          <div>
+            <p class="hero__title">Nishizumi Maho</p>
+            <h1 class="hero__headline">Kuromorimine Project Hangar</h1>
+            <p class="hero__subtitle">
+              Central command for iRacing utilities and translation work. Inspired by the
+              discipline and precision of Kuromorimine Girls High School.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#iracing">View iRacing Projects</a>
+              <a class="btn btn--ghost" href="#translations">Translations</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="iracing" class="section">
+          <div class="section__header">
+            <h2>iRacing Projects</h2>
+            <p>Race-day tooling to keep every stint sharp.</p>
+          </div>
+          <details class="accordion" open>
+            <summary>
+              <span class="accordion__title">Open Project List</span>
+              <span class="accordion__hint">Click to expand or collapse</span>
+            </summary>
+            <div class="card-grid">
+              <article class="card">
+                <h3>Nishizumi Control</h3>
+                <p>Unified control center for managing iRacing overlays and session flow.</p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Control" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+              <article class="card">
+                <h3>Nishizumi Fuel</h3>
+                <p>Fuel planning utility for pit strategies and safe stint calculations.</p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-fuel" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+              <article class="card">
+                <h3>Nishizumi Tools</h3>
+                <p>Collection of quality-of-life tools to streamline race preparation.</p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Tools" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+              <article class="card">
+                <h3>Nishizumi Calculator</h3>
+                <p>Quick calculators for deltas, stint timing, and race math.</p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Calculator" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+              <article class="card">
+                <h3>Nishizumi IBT</h3>
+                <p>Telemetry and training helpers for consistent lap improvement.</p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-IBT" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+              <article class="card">
+                <h3>Nishizumi Share</h3>
+                <p>Share settings and race assets across devices and teammates.</p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Share" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+              <article class="card">
+                <h3>Nishizumi Sync</h3>
+                <p>Sync race configurations and data with Kuromorimine efficiency.</p>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Sync" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </article>
+            </div>
+          </details>
+        </section>
+
+        <section id="translations" class="section">
+          <div class="section__header">
+            <h2>Translation Projects</h2>
+            <p>Bringing clear communication to the community.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Nishizumi Translations</h3>
+              <p>Localization work and translation resources for fans and developers.</p>
+              <a
+                href="https://github.com/nishizumi-maho/Nishizumi-Translations"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub
+              </a>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Built for GitHub Pages • Kuromorimine discipline, Nishizumi precision.</p>
+      </footer>
+    </div>
+  </body>
+</html>
