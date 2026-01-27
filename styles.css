@@ -237,15 +237,15 @@ body {
 }
 
 .app-status--stable {
-  background: rgba(134, 195, 163, 0.2);
-  color: var(--accent-strong);
-  border: 1px solid rgba(134, 195, 163, 0.45);
+  background: rgba(76, 175, 80, 0.2);
+  color: #5ad46a;
+  border: 1px solid rgba(76, 175, 80, 0.45);
 }
 
 .app-status--wip {
-  background: rgba(255, 184, 77, 0.18);
-  color: #ffcc80;
-  border: 1px solid rgba(255, 184, 77, 0.45);
+  background: rgba(220, 70, 70, 0.18);
+  color: #ff6b6b;
+  border: 1px solid rgba(220, 70, 70, 0.45);
 }
 
 .card h3 {
