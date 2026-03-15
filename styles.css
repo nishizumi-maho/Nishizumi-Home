@@ -248,6 +248,12 @@ body {
   border: 1px solid rgba(220, 70, 70, 0.45);
 }
 
+.app-status--archived {
+  background: rgba(128, 128, 128, 0.2);
+  color: #c7c7c7;
+  border: 1px solid rgba(180, 180, 180, 0.4);
+}
+
 .card h3 {
   font-size: 1.05rem;
 }
