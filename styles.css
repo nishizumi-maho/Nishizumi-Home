@@ -204,6 +204,10 @@ body {
   box-shadow: 0 22px 36px rgba(0, 0, 0, 0.5);
 }
 
+.card--plain {
+  border-color: rgba(154, 163, 161, 0.35);
+}
+
 .card__header {
   display: flex;
   align-items: center;
