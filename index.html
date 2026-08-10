@@ -16,7 +16,7 @@
     <div class="page">
       <header class="hero">
         <div class="hero__badge">
-          <span>Special Ops</span>
+          <span>Nishizumi Style</span>
         </div>
         <div class="hero__content">
           <div class="hero__mark" aria-hidden="true">
@@ -43,179 +43,378 @@
             <p class="hero__title">Nishizumi Maho</p>
             <h1 class="hero__headline">Nishizumi Project Hangar</h1>
             <p class="hero__subtitle">
-              Central command for precise, disciplined, and purpose-driven operations.
+              Central command for a sim-racing arsenal — assembled with the discipline and
+              precision of the Nishizumi style. Every tool here is built to keep a stint sharp and
+              a driver focused on the win.
             </p>
             <div class="hero__actions">
-              <a class="btn btn--primary" href="#iracing">iRacing Projects</a>
+              <a class="btn btn--primary" href="#featured">Flagship Tools</a>
+              <a class="btn btn--ghost" href="#hardware">PSVR2 &amp; Hardware</a>
               <a class="btn btn--ghost" href="#translations">Translations</a>
             </div>
           </div>
         </div>
       </header>
 
+      <section class="persona" aria-label="About the Nishizumi style">
+        <div class="persona__crest" aria-hidden="true">
+          <svg viewBox="0 0 96 96" role="img" aria-label="Black Forest peak crest">
+            <circle cx="48" cy="48" r="45" fill="#0c1210" stroke="#86c3a3" stroke-width="2" />
+            <path
+              d="M12 68 L33 33 L45 51 L59 29 L84 68 Z"
+              fill="none"
+              stroke="#86c3a3"
+              stroke-width="2.5"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M48 20 L39 39 L44 39 L35 55 L61 55 L52 39 L57 39 Z"
+              fill="#0c1210"
+              stroke="#cfe4da"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+            <rect x="46" y="55" width="4" height="9" fill="#cfe4da" />
+            <line x1="18" y1="74" x2="78" y2="74" stroke="#86c3a3" stroke-width="2" opacity="0.55" />
+          </svg>
+        </div>
+        <div class="persona__body">
+          <h2>The Nishizumi Style</h2>
+          <p>
+            This hangar takes its name and bearing from <strong>Maho Nishizumi</strong> — the
+            composed, exacting commander of <strong>Kuromorimine Girls Academy</strong> in
+            <em>Girls und Panzer</em>. The tools here are built the way she leads a Panzer line:
+            disciplined, deliberate, and pointed squarely at the objective. No wasted motion, no
+            guesswork left on the table — just clean instrumentation for drivers who take the sim
+            seriously.
+          </p>
+          <p class="persona__note">
+            Unofficial fan homage. <em>Girls und Panzer</em>, its characters and emblems are © their
+            respective owners; this site is not affiliated with or endorsed by them.
+          </p>
+        </div>
+      </section>
+
       <main>
-        <section id="iracing" class="section">
+        <section id="featured" class="section">
           <div class="section__header">
-            <h2>iRacing Projects</h2>
-            <p>Race-day tooling to keep every stint sharp.</p>
+            <h2>Flagship Tools</h2>
+            <p>The two that earn their place at the front of the column.</p>
           </div>
-          <details class="accordion" open>
-            <summary>
-              <span class="accordion__title">Open Project List</span>
-              <span class="accordion__hint">Click to expand or collapse</span>
-            </summary>
-            <div class="card-grid">
-              <article class="card card--stable">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>iRefinedWEB</h3>
-                </div>
-                <span class="app-status app-status--stable">Stable release</span>
-                <p>
-                  A browser-first helper extension for the iRacing members-ng website with
-                  register/withdraw helpers, queue automation for future sessions, and hosted/league
-                  session import/export quality-of-life tools.
-                </p>
-                <a href="https://github.com/nishizumi-maho/irefinedWEB" target="_blank" rel="noreferrer">
-                  View on GitHub
-                </a>
-              </article>
-              <article class="card card--stable">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Paints</h3>
-                </div>
-                <span class="app-status app-status--stable">Stable release</span>
-                <p>
-                  A lightweight desktop app for iRacing that watches your current session,
-                  downloads matching Trading Paints files for each driver, installs them into your
-                  local iRacing paint folder, and can auto-refresh textures so paints show up
-                  in-game without manual steps.
-                </p>
+          <div class="featured-grid">
+            <article class="card card--featured">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>Nishizumi-Paints</h3>
+              </div>
+              <span class="app-status app-status--flagship">★ Flagship</span>
+              <p>
+                A desktop companion for iRacing and Trading Paints that watches your live session,
+                downloads each driver's matching paint, and installs it into your local iRacing
+                folder — with a public showroom fallback, RandomPool seeding, AI workflows, and
+                auto-refresh so custom liveries show up in-game with zero manual steps.
+              </p>
+              <div class="card__links">
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Paints" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
-              </article>
-              <article class="card card--stable">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Control</h3>
-                </div>
-                <span class="app-status app-status--stable">Stable release</span>
-                <p>
-                  A hotkey assisted control manager for iRacing driver adjustments (brake bias, TC,
-                  ABS, etc.), with multi device inputs, an on screen HUD overlay, presets, and
-                  optional speech/voice features.
-                </p>
+              </div>
+            </article>
+            <article class="card card--featured">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>Nishizumi-Control</h3>
+              </div>
+              <span class="app-status app-status--flagship">★ Flagship</span>
+              <p>
+                A hotkey-assisted control manager for in-car adjustments — brake bias, TC, ABS and
+                more — with multi-device inputs, an on-screen HUD overlay, saved presets, and
+                optional speech/voice control. The fastest way to change the car without taking your
+                hands off the wheel.
+              </p>
+              <div class="card__links">
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Control" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
-              </article>
-              <article class="card card--stable">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Tools</h3>
-                </div>
-                <span class="app-status app-status--stable">Stable release</span>
-                <p>
-                  A collection of apps and overlays for iRacing.
-                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="insim" class="section">
+          <div class="section__header">
+            <h2>In-Sim Tools &amp; Overlays</h2>
+            <p>Utilities and live overlays that ride along with your session.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>Nishizumi-Tools</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                A growing collection of apps and overlays for iRacing, bundled into one toolkit.
+              </p>
+              <div class="card__links">
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Tools" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
-              </article>
-              <article class="card card--stable">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Profiles</h3>
-                </div>
-                <span class="app-status app-status--stable">Stable release</span>
-                <p>
-                  A desktop app for iRacing that manages renderer profiles by current combo (car,
-                  track, series, or grouped modes), saving and applying the right INI behavior for
-                  Monitor, OpenXR, or OpenVR using available live session data.
-                </p>
+              </div>
+            </article>
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>Nishizumi-Profiles</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                A desktop app that manages renderer profiles by current combo (car, track, series,
+                or grouped modes), saving and applying the right INI behavior for Monitor, OpenXR,
+                or OpenVR from live session data.
+              </p>
+              <div class="card__links">
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Profiles" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
-              </article>
-              <article class="card card--stable">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Calculator</h3>
-                </div>
-                <span class="app-status app-status--stable">Stable release</span>
-                <p>
-                  “Drive Fair Share Calculator”, a multilingual static web calculator for team
-                  events that computes equal share and minimum fair share laps per driver and can
-                  estimate time per driver using average lap time.
-                </p>
-                <a href="https://github.com/nishizumi-maho/Nishizumi-Calculator" target="_blank" rel="noreferrer">
-                  View on GitHub
-                </a>
-              </article>
-              <article class="card">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-IBT</h3>
-                </div>
-                <span class="app-status app-status--stable">STABLE RELEASE</span>
-                <p>
-                  An experimental Tkinter overlay that compares your live telemetry to a reference
-                  lap extracted from a local .ibt file, showing throttle/brake/speed traces and cue
-                  points to benchmark driving.
-                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>Nishizumi-IBT</h3>
+              </div>
+              <span class="app-status app-status--archived">Archived — no longer updated</span>
+              <p>
+                An experimental Tkinter overlay that compares your live telemetry to a reference lap
+                extracted from a local .ibt file, showing throttle/brake/speed traces and cue points
+                to benchmark your driving.
+              </p>
+              <div class="card__links">
                 <a href="https://github.com/nishizumi-maho/Nishizumi-IBT" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
-              </article>
-              <article class="card">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Share</h3>
-                </div>
-                <span class="app-status app-status--stable">STABLE RELEASE</span>
-                <p>
-                  An experimental privacy focused setup/file sharing system using Tor hidden
-                  services (.onion) for anonymous team file sharing and syncing, aiming to avoid
-                  exposing IPs and relying on optional controls like rate limiting and scanning.
-                </p>
-                <a href="https://github.com/nishizumi-maho/Nishizumi-Share" target="_blank" rel="noreferrer">
-                  View on GitHub
-                </a>
-              </article>
-              <article class="card">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Sync</h3>
-                </div>
-                <span class="app-status app-status--stable">STABLE RELEASE</span>
-                <p>
-                  A setups organizer/sync tool that copies and synchronizes iRacing setup files,
-                  with GUI, profiles, import modes (archives/folders), smart car detection/mapping,
-                  bidirectional sync, and dry run support.
-                </p>
-                <a href="https://github.com/nishizumi-maho/Nishizumi-Sync" target="_blank" rel="noreferrer">
-                  View on GitHub
-                </a>
-              </article>
-              <article class="card">
-                <div class="card__header">
-                  <span class="iracing-logo" aria-hidden="true">iRacing</span>
-                  <h3>Nishizumi-Mini-Tools</h3>
-                </div>
-                <span class="app-status app-status--archived">Archived</span>
-                <p>
-                  A small bundle of pit operation helpers: Fuel Helper (warnings around
-                  fuel/autofuel and pit timing) and Turbo Pit (UI/CLI for sending pit command
-                  broadcasts, with toggles and auto clear options).
-                </p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>Nishizumi-Mini-Tools</h3>
+              </div>
+              <span class="app-status app-status--archived">Archived — no longer updated</span>
+              <p>
+                A small bundle of pit helpers — Fuel Helper (fuel/autofuel warnings and pit timing)
+                and Turbo Pit (UI/CLI for pit-command broadcasts with toggles and auto-clear).
+              </p>
+              <div class="card__links">
                 <a href="https://github.com/nishizumi-maho/Nishizumi-Mini-Tools" target="_blank" rel="noreferrer">
                   View on GitHub
                 </a>
-              </article>
-            </div>
-          </details>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="ratings" class="section">
+          <div class="section__header">
+            <h2>Calculators &amp; Ratings</h2>
+            <p>Know the numbers before and during the race.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <span class="tag tag--web">Web</span>
+                <h3>Nishizumi-SR</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                A live Safety Rating estimator — a transparent desktop overlay plus a companion web
+                calculator that share the exact same formula. It shows your Estimated SR gain/loss
+                during a session, built on a CPI→SR mapping reconstructed from iRacing's own official
+                data (MAE ~0.007 SR).
+              </p>
+              <div class="card__links">
+                <a href="https://nishizumi-maho.github.io/Nishizumi-SR/" target="_blank" rel="noreferrer">
+                  Live calculator ↗
+                </a>
+                <a href="https://github.com/nishizumi-maho/Nishizumi-SR" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <span class="tag tag--web">Web</span>
+                <h3>Nishizumi-Calculator</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                “Drive Fair Share Calculator” — a multilingual static web calculator for team events
+                that computes equal and minimum fair-share laps per driver and estimates time per
+                driver from average lap time.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Calculator" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="hardware" class="section">
+          <div class="section__header">
+            <h2>Hardware &amp; VR</h2>
+            <p>Bridging iRacing to the metal — force-feedback bases and PlayStation VR2.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <span class="tag tag--moza">MOZA</span>
+                <h3>Nishizumi-PitLink</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                A Windows tray app that bridges iRacing's detected car (and optionally track) to the
+                matching MOZA Pit House Motor preset. It's a connector, not an FFB editor — presets
+                are read fresh from Pit House's own folder and pushed through the official MOZA SDK,
+                so Pit House stays the single source of truth.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/Nishizumi-PitLink" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <span class="tag tag--psvr2">PSVR2</span>
+                <h3>Nishizumi-PSVR2-iRacing-Haptics</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                A Windows companion app that turns iRacing telemetry into PlayStation VR2 headset
+                rumble through the PSVR2 Toolkit C API. Fully independent — it never bundles,
+                patches, or jailbreaks the Toolkit — with comfort calibration and self-contained
+                builds.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/Nishizumi-PSVR2-iRacing-Haptics" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--psvr2">PSVR2</span>
+                <h3>Nishizumi-PSVR2-Ignition</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                A Windows tray app that watches for your PSVR2 headset to wake over USB, then
+                auto-runs vr2jb and launches SteamVR — no manual click. It keeps both vr2jb and
+                itself updated in the background, so putting the headset on is all it takes.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/Nishizumi-PSVR2-Ignition" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="setups" class="section">
+          <div class="section__header">
+            <h2>Setups &amp; Sharing</h2>
+            <p>Keep your garage organized and your team in sync.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>Nishizumi-Sync</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                A setups organizer/sync tool that copies and synchronizes iRacing setup files — GUI,
+                profiles, import modes (archives/folders), smart car detection/mapping, bidirectional
+                sync, and dry-run support.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Sync" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <span class="tag tag--tor">Tor</span>
+                <h3>Nishizumi-Share</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
+              <p>
+                An experimental, privacy-focused setup/file sharing system using Tor hidden services
+                (.onion) for anonymous team sharing — avoiding IP exposure, with optional rate
+                limiting and scanning.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/Nishizumi-Share" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="ui" class="section">
+          <div class="section__header">
+            <h2>iRacing UI Enhancements</h2>
+            <p>Quality-of-life layers for the official iRacing interface.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <span class="tag tag--web">Web</span>
+                <h3>iRefinedWEB</h3>
+              </div>
+              <span class="app-status app-status--takedown">Taken down by iRacing</span>
+              <p>
+                A browser-first helper extension for the iRacing members-ng site — register/withdraw
+                helpers, queue automation for future sessions, and hosted/league session
+                import/export quality-of-life tools. Taken down by iRacing; preserved here for
+                reference.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/irefinedWEB" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card__header">
+                <span class="tag tag--iracing">iRacing</span>
+                <h3>iRefinedX</h3>
+              </div>
+              <span class="app-status app-status--takedown">Taken down by iRacing</span>
+              <p>
+                A Windows launcher that booted the real local iRacing UI and injected the iRefinedX
+                enhancement layer — queue tools, a full-width Intelligence Center dashboard, and
+                session sharing/export. Taken down by iRacing; preserved here for reference.
+              </p>
+              <div class="card__links">
+                <a href="https://github.com/nishizumi-maho/iRefinedX" target="_blank" rel="noreferrer">
+                  View on GitHub
+                </a>
+              </div>
+            </article>
+          </div>
         </section>
 
         <section id="translations" class="section">
@@ -224,28 +423,38 @@
             <p>Bringing clear communication to the community.</p>
           </div>
           <div class="card-grid">
-            <article class="card">
-              <h3>Nishizumi-Translations (jp2subs)</h3>
+            <article class="card card--stable">
+              <div class="card__header">
+                <span class="tag tag--jp">日本語</span>
+                <h3>Nishizumi-Translations (jp2subs)</h3>
+              </div>
+              <span class="app-status app-status--stable">Stable release</span>
               <p>
-                A Windows friendly CLI/GUI pipeline that turns Japanese audio/video into
-                transcripts and subtitles (SRT/VTT/ASS), using faster whisper for ASR, optional
-                romanization, and ffmpeg for mux/burn; translation is no longer bundled (bring your
-                own translator/LLM). This app is STABLE RELEASE.
+                A Windows-friendly CLI/GUI pipeline that turns Japanese audio/video into transcripts
+                and subtitles (SRT/VTT/ASS), using faster-whisper for ASR, optional romanization, and
+                ffmpeg for mux/burn; translation is no longer bundled (bring your own translator/LLM).
               </p>
-              <a
-                href="https://github.com/nishizumi-maho/Nishizumi-Translations"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View on GitHub
-              </a>
+              <div class="card__links">
+                <a
+                  href="https://github.com/nishizumi-maho/Nishizumi-Translations"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
             </article>
           </div>
         </section>
       </main>
 
       <footer class="footer">
-        <p>Built for GitHub Pages • Nishizumi precision, clear workflows.</p>
+        <p class="footer__motto">Nishizumi style — discipline, precision, victory.</p>
+        <p>Built for GitHub Pages • Central command for clear, purpose-driven workflows.</p>
+        <p class="footer__note">
+          An unofficial fan homage to <em>Girls und Panzer</em>. All referenced characters, names,
+          and emblems belong to their respective rights holders.
+        </p>
       </footer>
     </div>
   </body>
